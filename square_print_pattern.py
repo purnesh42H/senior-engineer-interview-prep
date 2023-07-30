@@ -65,7 +65,7 @@ class SquarePattern(object):
 
     def _get_next_stripe(self, stripe):
         if stripe == "black":
-            return "white" # white
+            return "white"
         else:
             return "black"
 
